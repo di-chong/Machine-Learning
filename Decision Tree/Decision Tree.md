@@ -15,16 +15,21 @@
 
 ## （4）信息熵(info entropy)：决策树ID3.5算法（最基本的模型，简单实用，但在某些场合有缺陷）
 表示状态的混乱程度，熵越大越混乱。
-image
+
+![](https://github.com/di-chong/Machine-Learning/blob/main/Decision%20Tree/picture/1.png)
 
 ## （5）条件熵(Conditional entropy)
-image
+
+![](https://github.com/di-chong/Machine-Learning/blob/main/Decision%20Tree/picture/2.png)
 
 ## （6）信息增益，ID3算法构建决策树（最基本的模型，简单实用，但在某些场合有缺陷）
 信息增益就是信息熵与条件熵的差值：
-image
+
+![](https://github.com/di-chong/Machine-Learning/blob/main/Decision%20Tree/picture/3.png)
+
 ID3算法：递归构建过程中，使用信息增益的方法进行特征选择
-image
+
+![](https://github.com/di-chong/Machine-Learning/blob/main/Decision%20Tree/picture/4.png)
 
 ## （7）C4.5
 
