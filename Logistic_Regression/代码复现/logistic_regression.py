@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.optimize import minimize
 from utils.features.prepare_for_training import prepare_for_training
-from utils.hypothesis import sigmoid
+from utils.hypothesis.sigmoid import sigmoid
 
 class LogisticRegression:
     def __init__(self,data,labels,polynomial_degree = 0,sinusoid_degree = 0,normalize_data=False):

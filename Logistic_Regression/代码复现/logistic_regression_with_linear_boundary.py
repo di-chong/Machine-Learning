@@ -5,22 +5,22 @@ import matplotlib.pyplot as plt
 from logistic_regression import LogisticRegression
 
 
-data = pd.read_csv('../data/iris.csv')
-iris_types = ['SETOSA','VERSICOLOR','VIRGINICA']
+data = pd.read_csv('../../data/iris.csv')
+iris_types = ['setosa','versicolor','virginica']
 
 x_axis = 'petal_length'
 y_axis = 'petal_width'
 
 for iris_type in iris_types:
-    plt.scatter(data[x_axis][data['class']==iris_type],
-                data[y_axis][data['class']==iris_type],
+    plt.scatter(data[x_axis][data['species']==iris_type],
+                data[y_axis][data['species']==iris_type],
                 label = iris_type
                 )
 plt.show()
 
 num_examples = data.shape[0]
 x_train = data[[x_axis,y_axis]].values.reshape((num_examples,2))
-y_train = data['class'].values.reshape((num_examples,1))
+y_train = data['species'].values.reshape((num_examples,1))
 
 max_iterations = 1000
 polynomial_degree = 0
@@ -57,11 +57,11 @@ for x_index,x in enumerate(X):
     for y_index,y in enumerate(Y):
         data = np.array([[x,y]])
         prediction = logistic_regression.predict(data)[0][0]
-        if prediction == 'SETOSA':
+        if prediction == 'setosa':
             Z_SETOSA[x_index][y_index] =1
-        elif prediction == 'VERSICOLOR':
+        elif prediction == 'versicolor':
             Z_VERSICOLOR[x_index][y_index] =1
-        elif prediction == 'VIRGINICA':
+        elif prediction == 'virginica':
             Z_VIRGINICA[x_index][y_index] =1
             
 for iris_type in iris_types:
