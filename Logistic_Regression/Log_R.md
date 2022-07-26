@@ -8,22 +8,22 @@
 边界可以是非线性的
 
 ## 3.通过sigmoid函数将函数映射到0-1的概率问题上
-[sigmoid映射](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/1.png)
+![sigmoid映射](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/1.png)
 
 ## 4.决策边界函数: g(x)=0
 ### 1.线性边界
-[线性边界](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/2.png)
+![线性边界](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/2.png)
 
 ### 2.非线性边界
-[非线性边界](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/3.png)
+![非线性边界](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/3.png)
 
 ### 3.似然函数：本来找概率最大值，转化为用梯度下降找最小值
-[梯度下降](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/4.png)
+![梯度下降](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/4.png)
 
 ### 4.求导：梯度一定是正数，此时下降趋势求导为负数，梯度则要添加负号
-[求导-最终函数](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/5.png)
+![求导-最终函数](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/5.png)
 
 
 ## 5.参数更新
-[更新参数](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/6.png)
+![更新参数](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/picture/6.png)
 
