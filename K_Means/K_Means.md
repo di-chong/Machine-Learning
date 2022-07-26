@@ -28,9 +28,9 @@
    ![初值的影响](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/5.png)
    
         3.不清楚应该分为几个簇
-   ![簇值无法确定](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/5.png)
+   ![簇值无法确定](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/6.png)
    
-   总结：
+   ### 总结：
    
 ![总结](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/3.png)
         
