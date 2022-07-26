@@ -29,11 +29,11 @@
 [k_means概念--无监督](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/K_Means.md)
 
 ### codes--代码
-1.[梯度下降以及逻辑回归抽象类封装](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/logistic_regression.py)
+1.[k_means抽象类封装](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/k_means.py)
 
-2.[线性边界](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/logistic_regression_with_linear_boundary.py)
+2.[实例化](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/demo.py)
 
-3.[非线性边界](https://github.com/di-chong/Machine-Learning/blob/main/Logistic_Regression/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/NonLinearBoundary.py)
+
 
 
 
