@@ -34,7 +34,7 @@
 2.[实例化](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/demo.py)
 
 ## 4.Decision Tree
-[Decision Tree--决策树概念](https://github.com/di-chong/Machine-Learning/blob/main/Decision Tree/Decision Tree.md)
+[Decision Tree--决策树概念](https://github.com/di-chong/Machine-Learning/blob/main/Decision%20Tree/Decision%20Tree.md)
 
 
 
