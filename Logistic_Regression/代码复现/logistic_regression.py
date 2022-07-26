@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.optimize import minimize
-from utils.features import prepare_for_training
+from utils.features.prepare_for_training import prepare_for_training
 from utils.hypothesis import sigmoid
 
 class LogisticRegression:
