@@ -13,7 +13,7 @@
 
 2.两个常用不纯度函数, 信息熵(info entropy)和基尼指数(gini index).
 
-## （4）信息熵(info entropy)：决策树ID3.5算法（最基本的模型，简单实用，但在某些场合有缺陷）
+## （4）信息熵(info entropy)：
 表示状态的混乱程度，熵越大越混乱。
 
 ![](https://github.com/di-chong/Machine-Learning/blob/main/Decision%20Tree/picture/1.png)
