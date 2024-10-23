@@ -10,25 +10,26 @@
 
 3. 做一份详细的统计，根据自身情况量身定制方案。
 
-回到问题中，当我们在选择手机时，除了极个别人明确手机性能，颜值外，大多人都是根据周围人的手机类型来选择。![1729088633666](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729088633666.png)
+回到问题中，当我们在选择手机时，除了极个别人明确手机性能，颜值外，大多人都是根据周围人的手机类型来选择。
+![image](picture/1.png)
 
 ### 2. 问题分析：
 
 具体可能会经过下面几个步骤：
 
-![1729088831598](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729088831598.png)
+![image](picture/2.png)
 
 ### 3. 总结：
 
-![1729089152970](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729089152970.png)
+![image](picture/3.png)
 
 ### 4.距离算法的优化：
 
 1. 欧氏距离
-2. **python的广播机制**：比如：预测的维度是5-1024(5个数据，每个数据包含1024个数据点)，训练数据是500-1024，理论上存在5×500的距离矩阵。我们只需要将预测维度为5-1-1024，训练和测试的数据都会广播为5-500-1024，最欧氏距离会得到5×500×1的距离矩阵。![1729095381390](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729095381390.png)
+2. **python的广播机制**：比如：预测的维度是5-1024(5个数据，每个数据包含1024个数据点)，训练数据是500-1024，理论上存在5×500的距离矩阵。我们只需要将预测维度为5-1-1024，训练和测试的数据都会广播为5-500-1024，最欧氏距离会得到5×500×1的距离矩阵。![image](picture/4.png)
 3. 当然也可以直接通过维度拓展生成这种广播形式
 4. 但是广播机制内部还是会设计1024个数据点之间的运算，如果样本数量多，会存在内存不足的现象
-5. **直接利用公式**![1729177020107](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729177020107.png)
+5. **直接利用公式**![image](picture/5.png)
 
 ```
 def euclidean_dis(x1, x2):
