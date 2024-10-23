@@ -16,17 +16,17 @@
 
 分割直线可能不止一条，为了保证鲁棒性，将会选择中间的一条直线。
 
-![1729429227629](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729429227629.png)
+![picture](picture/1.png)
 
-![1729431210281](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729431210281.png)
+![picture](picture/2.png)
 
 ### 4.目标函数优化
 
-![1729436459630](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729436459630.png)
+![picture](picture/3.png)
 
-![1729436606042](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729436606042.png)
+![picture](picture/4.png)
 
-![1729436652855](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729436652855.png)
+![picture](picture/5.png)
 
-![1729436714214](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729436714214.png)
+![picture](picture/6.png)
 
