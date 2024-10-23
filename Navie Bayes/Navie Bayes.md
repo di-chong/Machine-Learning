@@ -12,7 +12,7 @@
 
 ###### 小明按照已知邮件得到分类概率：P(正常)=16/30，P(垃圾)=14/30，然后从两类中提取关键词并统计次数。
 
-#### ![1729074498503](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729074498503.png)
+![image](picture/1.png) 
 
 ###### 假如现在收到一封邮件，包含关键词：退订、面试、提醒
 
