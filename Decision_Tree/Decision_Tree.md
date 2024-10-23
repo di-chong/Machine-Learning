@@ -16,7 +16,7 @@ H_{p} = - p\log_{}{p} - (1-p)\log_{}{(1-p)}
 $$
 
 
-![1729498590922](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729498590922.png)
+![image](picture/1.png)
 
 ​	**熵越大，随机变量的不确定性越大。**比如，抛硬币，正负的概率都是0.5，熵值最大
 
@@ -40,9 +40,9 @@ $$
 
 #### 3.1 信息增益
 
-![1729500640341](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729500640341.png)
+![image](picture/2.png)
 
-![1729500713120](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729500713120.png)
+![image](picture/3.png)
 
 #### 3.2. ID3算法构建决策树
 
@@ -56,7 +56,7 @@ $$
 
 目的：在使用信息增益的时候，可能存在这样一种情况，它的特征类别特别的多。(极端情况下，特征类别数量等于样本数据)。这种情况下，在该特征的情况下，信息增益变得很大，但是其实这种情况下，泛化能力会变低。考虑到这种情况，还有一种修正的方法，那就是信息增益比。
 
-![1729501344479](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729501344479.png)
+![image](picture/4.png)
 
 #### 3.4 CART算法
 
@@ -64,7 +64,7 @@ $$
 
 **基尼指数：**
 
-![1729501786184](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729501786184.png)
+![image](picture/5.png)
 
 ### 4.决策树的剪枝
 
@@ -97,7 +97,7 @@ $$
 #### 5.2 缺失值
 
 1. **如果数据量大，缺失值少**，最简单的方式就是直接删除，但显然不适应于所有场景
-2. ![1729520767920](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729520767920.png)
+2. ![image](picture/6.png)
 
 
 
