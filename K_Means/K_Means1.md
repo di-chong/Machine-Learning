@@ -2,14 +2,14 @@
 
 新学期开始了，社团招新，有**相同爱好**的人会优先加入对应的社团，并且社团规模会不断的**增长**。
 
-![1729256523556](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729256523556.png)
+![](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/7.png)
 
 ### 2.算法介绍：无监督任务
 
 1. K值---即簇：把无标签的数据分为K类
 2. 应用领域：客户群体分类，社交网络
 
-![1729256803210](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729256803210.png)
+![](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/8.png)
 
 ### 3.具体操作
 
@@ -33,7 +33,8 @@
 
 ### 5.1 EM
 
-上面的方法中会存在一个：K个样本的初始选取会影响最终分类![1729262606845](C:\Users\houliang wang\AppData\Roaming\Typora\typora-user-images\1729262606845.png)
+上面的方法中会存在一个：K个样本的初始选取会影响最终分类
+![](https://github.com/di-chong/Machine-Learning/blob/main/K_Means/picture/9.png)
 
 EM是一种借助期望与均值的方法，由概率分布密度可知，样本普遍分布于均值两侧
 
