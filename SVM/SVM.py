@@ -14,7 +14,7 @@ from sklearn.metrics import accuracy_score
 x = np.load('../dataset/Save_Data_CWRU/data.npy')
 y = np.load('../dataset/Save_Data_CWRU/label.npy')
 
-# 3. 划分数据集，默认打乱顺序：(8000 + 2000) * 1024
+# 3. 划分数据集，默认打乱顺序：(1600 + 400) * 1024
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
 # 4.训练模型
